@@ -22,7 +22,7 @@ function App() {
   console.log('commit 2.0')
   console.log('commit 3.0')
   console.log('commit 4.0')
-  console.log('main')
+  console.log('vue')
   return (
     <>
       <div>
