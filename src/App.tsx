@@ -1,10 +1,23 @@
-import { useState } from 'react'
+/*
+ * @Author: kaka
+ * @Date: 2024-06-23 23:52:29
+ * @LastEditors: kaka
+ * @LastEditTime: 2024-06-24 00:11:05
+ * @FilePath: \vite-react\src\App.tsx
+ * @Description:
+ * wx:zjm19960705
+ * Copyright (c) 2024 by kaka/zzc, All Rights Reserved.
+ */
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  useEffect(() => {
+    console.log(count)
+  })
 
   return (
     <>
