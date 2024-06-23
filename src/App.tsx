@@ -2,7 +2,7 @@
  * @Author: kaka
  * @Date: 2024-06-23 23:52:29
  * @LastEditors: kaka
- * @LastEditTime: 2024-06-24 00:11:05
+ * @LastEditTime: 2024-06-24 00:19:45
  * @FilePath: \vite-react\src\App.tsx
  * @Description:
  * wx:zjm19960705
@@ -18,7 +18,9 @@ function App() {
   useEffect(() => {
     console.log(count)
   })
-
+  console.log('commit 1.0')
+  console.log('commit 2.0')
+  console.log('commit 3.0')
   return (
     <>
       <div>
