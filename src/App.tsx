@@ -2,7 +2,7 @@
  * @Author: kaka
  * @Date: 2024-06-23 23:52:29
  * @LastEditors: kaka
- * @LastEditTime: 2024-06-24 00:25:18
+ * @LastEditTime: 2024-06-24 00:31:53
  * @FilePath: \vite-react\src\App.tsx
  * @Description:
  * wx:zjm19960705
@@ -22,7 +22,7 @@ function App() {
   console.log('commit 2.0')
   console.log('commit 3.0')
   console.log('commit 4.0')
-  console.log('commit 5.0')
+  console.log('main')
   return (
     <>
       <div>
